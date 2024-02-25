@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;  
+}
+
+.cabezera{ 
+    
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+.logo {
+    color: black;
+    text-decoration: none;
+    font-family: 'Fugaz One', cursive;
+    font-size: 18px;
+}
+.dere{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    
+}
+
+.izq{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+.izq a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.regis{
+    background: white;
+    border-radius: 5px;
+}
+.regis b {
+    color: #953CF4;
+}
+.container {
+    padding-top: 1px;
+    display: grid;
+    place-items: center;
+}
+.grip{
+    display: grid;
+    place-items: center;
+}
+.opciones{
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #f0608b 0%, #F01A5B 100%);
+    
+}
+.content{
+    width: 100%;
+}
+.texto{
+    word-wrap: break-word;
+    width: 500px;
+    height: auto;
+    
+    
+    
+}
+h3 {
+    font-size: 25px;
+    color: black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.canti-cont{
+    width: 500px;
+    height: 70px;
+    display: flex;
+}
+.right{
+    width: 50%;
+    color: rgb(220, 2, 5);
+}
+.left{
+    width: 50%;
+}
+.progress-cont{
+width: 500px;
+height: 10px;
+background-color: #c9c9c9;
+border-radius: 220px;
+}
+.progress{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(220, 2, 5);
+    border-radius: 20px;
+}
+.objeti{
+    width: 500px;
+    height: auto;
+}
+
+.donar{
+    width: 500px;
+    display: block;
+    background-color: rgb(220, 2, 5);
+    text-decoration: none;
+    text-align: center;
+    height: auto;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.compar{
+    display: block;
+    
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(66, 103, 177);
+    border: 1px solid rgb(66, 103, 177);
+}
+.info-text{
+    width: 500px;
+    height: auto;
+    
+}
+.info-text p {
+    word-wrap: break-word;
+    text-align: center;
+    color: rgb(28, 18, 59);
+}
+.cantidades{
+    width: 500px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.cant-btn{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid rgb(220, 2, 5);
+    border-radius: 5px;
+    color: rgb(220, 2, 5);
+}
+.opciones h2 {
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    padding: 10PX;
+    word-wrap: break-word;
+}
+.opciones p{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+.opciones a{
+    color: #F01A5B;
+    background: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+
+}
+.info-form{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+.info-form form{
+    background: rgb(211, 211, 211);
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.info-form form input{
+    display: block;
+    padding: 15px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+   outline-color: #8423ec;
+    
+    
+}
+.info-form form p{
+    color: rgb(53, 53, 53);
+    margin-left: 15px;
+}
+.info-form form h1 {
+    margin-left: 15px;
+}
+.info-form form a{
+    background: #8423ec;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form p {
+    margin-left: 11px;
+    color: #005AB3;
+}
+form {
+	box-sizing: border-box;
+}
+form input{
+	width: 95%;
+	display: block;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #c289ff;
+	outline-color: #8423ec;
+}
+form button{
+	width: 95%;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+    background: linear-gradient(-45deg, #8423ec 0%, #b169ff 100%);
+}
+.span{
+	font-size: 10px;
+	margin-left: 30px; 
+	position: relative;
+	display: inline;
+	top: 8px;
+	background: white; 
+	color: white;
+	
+}
+.span span{
+	color: #7E7E7E;
+}
+.boton a p {
+	color: white;
+}
+form{
+    width: 500px;
+}
+.caja-form{
+    display: grid;
+    place-items: center;
+}
+.metodo-grip{
+    display: grid;
+    place-items: center;
+}
+.metodo{
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
+    background: #953CF4;
+    border-radius: 5px;
+    
+    
+}
+.metodo h2{
+    color: white;
+    margin: 10px;
+}
+.btn-asosi{
+    color: #8423ec;
+    background: white;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+  .texto{
+    width: 85%;
+  }
+    .content{
+    width: 100%;
+   }
+   .video1{
+    width: 100%
+   }
+   .container, .grip{
+    width: 100%;
+   }
+   .progress-cont{
+    width: 85%;
+   }
+   .canti-cont{
+    width: 85%;
+   }
+   .objeti{
+    width: 85%;
+   }
+   .donar{
+    width: 85%;
+   }
+   .compar{
+    width: 85%;
+   }
+   .info-text{
+    width: 85%;
+   }
+   .cantidades{
+    width: 85%;
+   }
+    .opciones{
+        width: 85%;
+
+    }
+    .info-form form {
+        width: 95%;
+    }
+    .formulario{
+        width: 95%;
+    }
+    .metodo{
+        width: 95%;
+    }
+    #veri{
+        width: 150px;
+        fill: white;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 448px){
+    .izq{
+        display: none;
+    }
+    .dere{
+        width: 100%;
+    }
+}
