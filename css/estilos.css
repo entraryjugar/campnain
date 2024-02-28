@@ -166,6 +166,42 @@ border-radius: 220px;
     border-radius: 5px;
     color: rgb(220, 2, 5);
 }
+#btn-contin{
+    display: block;
+    width: 95%;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+    background: rgb(220, 2, 5);
+    text-align: center;
+}
+.navegacion div{
+    display: none;
+}
+.navegacion div.show{
+    display: block;
+}
+#infor{
+    width: 95%;
+    background-color: #D1D1D1;
+    height: 50px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+#infor{
+    display: none;
+}
+#infor.show{
+    display: block;
+}
+.infor p{
+    padding: 15px;
+}
 .opciones h2 {
     font-size: 30px;
     color: white;
@@ -241,7 +277,7 @@ border-radius: 220px;
 }
 form p {
     margin-left: 11px;
-    color: #005AB3;
+    color: #575757;
 }
 form {
 	box-sizing: border-box;
@@ -254,8 +290,8 @@ form input{
 	margin-top: px;
 	padding: 20px;
 	border-radius: 5px;
-	border: 1px solid #c289ff;
-	outline-color: #8423ec;
+	border: 1px solid #ffadad;
+	outline-color: rgb(220, 2, 5);
 }
 form button{
 	width: 95%;
@@ -266,7 +302,7 @@ form button{
 	color: white;
 	border-style: none;
 	cursor: pointer;
-    background: linear-gradient(-45deg, #8423ec 0%, #b169ff 100%);
+    background: rgb(220, 2, 5);
 }
 .span{
 	font-size: 10px;
